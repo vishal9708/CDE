@@ -10,6 +10,10 @@ app.use(express.static('public'));
 app.get("/",function(req,res){
   res.render("home");
 });
+app.get("/home",function(req,res){
+  res.render("home");
+});
+
 app.get("/about",function(req,res){
   const about = "About Me";
   res.render("about", {pageName: about});
