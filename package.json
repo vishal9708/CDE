@@ -1,5 +1,5 @@
 {
-  "name": "template",
+  "name": "CDE",
   "version": "1.0.0",
   "description": "A career counselling website",
   "main": "app.js",
@@ -7,12 +7,20 @@
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "ROHAN DEKA",
+  "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
-    "twilio": "^3.56.0"
+    "express-session": "^1.17.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.11.14",
+    "mongoose-encryption": "^2.0.3",
+    "multer": "^1.4.2",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0"
   }
 }

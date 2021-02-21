@@ -1,0 +1,44 @@
+<%- include('partials/header') %>
+
+<div class="separation">
+
+</div>
+<div class="jumbotron centered">
+    <div class="container">
+      <!-- <i class="fas fa-key fa-6x"></i> -->
+      <h1 class="display-3">Register</h1>
+      <p class="lead">Don't keep your ideas a secret, share them anonymously!</p>
+      <hr>
+      
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="card">
+            <div class="card-body">
+    
+              <!-- Makes POST request to /login route -->
+              <form action="/register" method="POST">
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" name="username">
+                </div>
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" class="form-control" name="password">
+                </div>
+                <div class="form-group">
+                  <label for="invitation-code">Invitation Code</label>
+                  <input type="text" class="form-control" name="invitationcode">
+                </div>
+                <button type="submit" class="btn btn-dark">Register</button>
+              </form>
+    
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+<%- include('partials/footer') %>
