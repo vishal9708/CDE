@@ -43,7 +43,7 @@ app.use(passport.session());
 
 
 
-mongoose.connect("mongodb://localhost:27017/cdewebDB",  {
+mongoose.connect("mongodb://localhost:27017/CareerDreamEducation",  {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false
